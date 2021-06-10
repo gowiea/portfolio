@@ -23,7 +23,6 @@ button{
 border: none;
   color: rgb(9, 28, 31);
   background-color: rgb(206, 250, 237);
-  opacity: 100%;
   width: 10em;
   margin: auto;
   display: block;
