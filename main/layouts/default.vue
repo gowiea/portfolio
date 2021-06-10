@@ -47,7 +47,7 @@
   border: none;
   color: rgb(9, 28, 31);
   background-color: rgb(206, 250, 237);
-  opacity: 70% !important;
+  opacity: 0.7;
   width: 10em;
   margin: 1em 0em 1em 0em;
   font-family: Prisma, serif;
@@ -60,7 +60,7 @@
   border: none;
   color: rgb(9, 28, 31);
   background-color: rgb(206, 250, 237);
-  opacity: 100%;
+  opacity: 1;
   width: 10em;
   margin: 1em 0em 1em 0em;
   font-family: Prisma, serif;
