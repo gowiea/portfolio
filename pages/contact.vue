@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Mon profil vous intéresse ? Contactez moi dès maintenant !</h1>
+    <h1>Mon profil vous intéresse ? Contactez moi dès maintenant ! Salut </h1>
     <mail />
   </div>
 </template>
