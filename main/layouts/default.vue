@@ -94,5 +94,8 @@ h3{
   .a {
     font-size: 2.5em;
   }
+  .link{
+    font-size: 2em;
+  }
 }
 </style>

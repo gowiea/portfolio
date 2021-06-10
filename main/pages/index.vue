@@ -126,8 +126,5 @@ h1 {
     width: 8em;
     margin: 0.4em auto;
   }
-  .link{
-    font-size: 2em;
-  }
 }
 </style>
