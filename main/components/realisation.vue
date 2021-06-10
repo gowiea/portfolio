@@ -46,10 +46,10 @@ div{
 }
 a{
     color: black;
-    opacity: 80%;
+    opacity: 0.8;
 }
 a:hover{
     text-decoration: none;
-    opacity: 100%;
+    opacity: 1;
 }
 </style>
