@@ -31,4 +31,13 @@ p {
   text-align: center;
   font-size: 1em;
 }
+ul{
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  margin: 0em 0em 1em 0em;
+}
 </style>

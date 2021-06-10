@@ -11,8 +11,8 @@
       </div>
     </div>
     <Nuxt />
-    <div>
-      
+    <div class="footer">
+      <h3>Site créé par Antoine Gowie</h3>
     </div>
   </div>
 </template>
@@ -23,6 +23,10 @@
 .bg {
   background-color: rgb(42, 157, 143);
   min-height: 10em;
+}
+.footer {
+  background-color: rgb(42, 157, 143);
+  padding: 1em 0em;
 }
 .a {
   text-decoration: none;
@@ -64,6 +68,10 @@
   text-decoration: none;
   padding-right: 0.06em ;
 }
+h3{
+  text-align: center;
+  margin: 1em 0em;
+}
 </style>
 
 <style scoped>
@@ -80,5 +88,11 @@
 }
 .enfant {
   margin: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .a {
+    font-size: 2.5em;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Mon profil vous intéresse ? Contactez moi dès maintenant ! Salut </h1>
+  <div class="bg-blue-light">
+    <h1 class="mail">Mon profil vous intéresse ? Contactez moi dès maintenant !</h1>
     <mail />
   </div>
 </template>
@@ -16,4 +16,7 @@ export default{
 }
 </script>
 <style>
+.mail{
+  margin: 3em 0em;
+}
 </style>

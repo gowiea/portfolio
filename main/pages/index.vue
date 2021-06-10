@@ -49,6 +49,10 @@ export default {
         {
           title: "Infographie",
           specs: ["Photoshop", "Illustrator", "Gimp", "Lightroom"]
+        },
+        {
+          title: "Dev web",
+          specs: ["HTML/CSS", "Javascript", "PHP", "Nuxt"]
         }
       ]
     };
@@ -59,7 +63,7 @@ export default {
 <style>
 .bg-blue-light {
   background-color: rgba(206, 250, 237, 0.5);
-  padding: 1em 0em;
+  padding: 1em 0em 5em 0em;
 }
 .bg-blue-dark {
   background-color: rgb(206, 250, 237);
@@ -102,11 +106,28 @@ h1 {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin: 1em 0em;
 }
+
 @media only screen and (max-width: 1000px) {
   .contain {
     width: 32em;
     margin: 1em auto;
   }
- 
+  .more {
+    width: 12em;
+    margin: 0.4em auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contain {
+    width: 15em;
+    margin: 1em auto;
+  }
+  .more {
+    width: 8em;
+    margin: 0.4em auto;
+  }
+  .link{
+    font-size: 2em;
+  }
 }
 </style>

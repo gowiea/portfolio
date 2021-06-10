@@ -5,7 +5,7 @@
             {{title}}
         </h1>
         <a :href="link" target=_blank>
-            equipage.team
+            Voir le site
         </a>
         <p>
             {{text}}
@@ -32,13 +32,24 @@
 <style scoped>
 img{
     height: 5em;
+    display: block;
+    margin: 1em auto;
 }
 h1{
-    text-align: center;
     font-size: 2em;
 }
 p{
-    text-align: center;
     font-size: 1em;
+}
+div{
+    text-align: center;
+}
+a{
+    color: black;
+    opacity: 80%;
+}
+a:hover{
+    text-decoration: none;
+    opacity: 100%;
 }
 </style>

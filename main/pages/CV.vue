@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-blue-light">
+    <div class="bg-blue-dark">
       <h1>Mes expériences</h1>
       <div
         class="contain"
@@ -12,6 +12,12 @@
           :title="experience.title"
           :text="experience.text"
         />
+      </div>
+    </div>
+    <div class="bg-blue-light">
+      <h1>Mes compétences</h1>
+      <div class="contain" v-for="(skill, index) in skills" :key="index">
+        <skill :title="skill.title" :specs="skill.specs" />
       </div>
     </div>
   </div>
@@ -50,7 +56,15 @@ export default {
         {
           title: "Infographie",
           specs: ["Photoshop", "Illustrator", "Gimp", "Lightroom"]
-        }
+        },
+        {
+          title: "Dev web",
+          specs: ["HTML/CSS", "Javascript", "PHP", "Nuxt"]
+        },
+        {
+          title: "Brand building",
+          specs: ["Marketing", "Logistique", "CM", "Management"]
+        },
       ]
     };
   }

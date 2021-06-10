@@ -31,9 +31,9 @@ import realisation from "../components/realisation.vue";
             "Développement du front-end, choix de la direction graphique"
         },
         {
-          img: require("../static/equipage.png"),
+          img: require("../static/bourgy.svg"),
           title: "Bertrand's Quest",
-          link: 'https://equipage.team',
+          link: 'https://bourgysquest.netlify.app',
           text:
             "Développement de la logique, équilibrage du jeu"
         },
